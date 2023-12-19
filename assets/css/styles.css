@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  color: #171100;
+  font-family: "Sen", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.logo::after {
+  content: ".";
+  color: #ffb900;
+  font-family: "Sen", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 118px;
+  line-height: 50px;
+  border-radius: 25px;
+  background: #ffb900;
+}
+
+/*# sourceMappingURL=styles.css.map */
